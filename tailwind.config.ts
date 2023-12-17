@@ -1,6 +1,8 @@
 /* eslint-disable ts/no-require-imports */
 import type { Config } from 'tailwindcss'
 
+import defaultTheme from 'tailwindcss/defaultTheme'
+
 export default <Partial<Config>>{
   theme: {
     extend: {
@@ -48,6 +50,6 @@ export default <Partial<Config>>{
     './plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}',
     './app.vue',
-    './storyblok/**/*.{vue,js}',
+    './content/**/*.md',
   ],
 }
