@@ -5,6 +5,17 @@ import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default <Partial<Config>>{
   theme: {
+    fontSize: {
+      'xs': '0.611rem',
+      'sm': '0.778rem',
+      'base': '1rem',
+      'xl': '1.333rem',
+      '2xl': '1.722rem',
+      '3xl': '2.222rem',
+      '4xl': '2.944rem',
+      '5xl': '3.833rem',
+      '6xl': '5.056rem',
+    },
     extend: {
       colors: {
         merah: {
