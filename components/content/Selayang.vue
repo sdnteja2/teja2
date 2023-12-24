@@ -37,7 +37,7 @@ defineProps({
             <!-- Blockquote -->
             <blockquote class="relative">
               <div class="relative z-10">
-                <p class="text-xs font-semibold  tracking-wide uppercase mb-3 text-gray-100 dark:text-gray-900 ">
+                <p class="text-sm font-semibold  tracking-wide uppercase mb-3 text-gray-100 dark:text-gray-900 ">
                   Selayang Pandang
                 </p>
 
@@ -46,10 +46,10 @@ defineProps({
                 </p>
               </div>
 
-              <footer class="mt-6">
+              <div class="mt-6">
                 <div class="flex items-center">
                   <div class="sm:hidden flex-shrink-0">
-                    <TwicImg class="rounded-full " :src="image" :alt="nama" />
+                    <TwicImg class="rounded-full h-16 w-16" :src="image" :alt="nama" />
                   </div>
                   <div class="ms-4 md:ms-0">
                     <div class="text-base font-semibold dark:text-gray-900 text-gray-800 ">
@@ -60,7 +60,7 @@ defineProps({
                     </div>
                   </div>
                 </div>
-              </footer>
+              </div>
             </blockquote>
             <!-- End Blockquote -->
           </div>

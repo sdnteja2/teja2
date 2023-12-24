@@ -15,6 +15,9 @@ export default defineNuxtConfig({
     anticipation: 0.5,
     step: 50,
   },
+  ui: {
+    icons: ['basil'],
+  },
   googleFonts: {
     display: 'swap',
     prefetch: true,
