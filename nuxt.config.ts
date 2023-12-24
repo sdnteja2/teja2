@@ -12,6 +12,8 @@ export default defineNuxtConfig({
   ],
   twicpics: {
     domain: `https://teja2.twic.pics`,
+    anticipation: 0.5,
+    step: 50,
   },
   googleFonts: {
     display: 'swap',
