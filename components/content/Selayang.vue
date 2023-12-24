@@ -49,7 +49,7 @@ defineProps({
               <footer class="mt-6">
                 <div class="flex items-center">
                   <div class="sm:hidden flex-shrink-0">
-                    <TwicImg class="rounded-full h-20" :src="image" :alt="nama" />
+                    <TwicImg class="rounded-full " :src="image" :alt="nama" />
                   </div>
                   <div class="ms-4 md:ms-0">
                     <div class="text-base font-semibold dark:text-gray-900 text-gray-800 ">
