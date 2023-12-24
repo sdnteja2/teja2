@@ -18,7 +18,7 @@ defineProps({
 <template>
   <section>
     <div class="h-screen">
-      <img :src="image" class="absolute inset-0 object-cover w-full h-screen">
+      <TwicImg :src="image" class="absolute inset-0 object-cover w-full h-screen" />
 
       <UContainer class="relative h-screen bg-gray-50 dark:bg-opacity-90 dark:bg-gray-950 bg-opacity-80">
         <UContainer class="flex items-center justify-center h-screen">

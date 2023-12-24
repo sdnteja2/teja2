@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/ui',
     '@nuxtjs/fontaine',
+    'nuxt-swiper',
 
   ],
   twicpics: {

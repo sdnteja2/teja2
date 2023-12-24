@@ -15,7 +15,9 @@
     "@iconify-json/ph": "^1.1.9",
     "@nuxt/content": "^2.9.0",
     "@nuxt/ui": "^2.11.1",
-    "@twicpics/components": "^0.26.0"
+    "@twicpics/components": "^0.26.0",
+    "aos": "^2.3.4",
+    "nuxt-swiper": "^1.2.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.4.6",

@@ -19,13 +19,15 @@ const items = [
 
 <template>
   <UContainer class="py-16 md:py-24">
-    <UTabs :items="items" :default-index="1">
-      <template #misi>
+    <UTabs :items="items" size="lg" :default-index="1">
+      <template #misi="{ item }">
         <div
+
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           class="px-6 bg-slate-100 shadow dark:bg-slate-900 py-2 rounded-md"
         >
+          {{ item.label }}
           <div>ini misi</div>
         </div>
       </template>
