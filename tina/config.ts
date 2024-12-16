@@ -3,6 +3,7 @@ import { defineConfig } from "tinacms";
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || "master";
 export default defineConfig({
+  branch,
   clientId: process.env.NUXT_TINA_CLIENT_ID || "", // Get this from tina.io
   token: process.env.NUXT_TINA_TOKEN || "", // Get this from tina.io
 
