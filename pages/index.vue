@@ -1,5 +1,7 @@
+<script setup>
+const { data } = await useAsyncData('hello', () => queryContent('/').findOne())
+</script>
+
 <template>
-  <main >
-    <ContentDoc path="/"/>
-  </main>
+  <ContentRenderer :value="data" />
 </template>
