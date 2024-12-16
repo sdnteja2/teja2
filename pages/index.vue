@@ -1,7 +1,8 @@
-<script setup>
-const { data } = await useAsyncData('home', () => queryContent('/').findOne())
-</script>
-
 <template>
-  <ContentRenderer :value="data" />
+  <main>
+  <div>
+    Ini Homome
+  </div>
+     
+  </main>
 </template>
