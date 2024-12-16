@@ -1,0 +1,10 @@
+# netlify.toml
+
+[functions]
+    external_node_modules = ["express", "vm2"]
+    node_bundler = "esbuild"
+[[redirects]]
+    force = true
+    from = "/api/*"
+    status = 200
+    to = "/.netlify/functions/api/:splat"

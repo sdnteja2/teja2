@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "build": "tinacms build && nuxt build",
+    "dev": "tinacms dev -c 'nuxt dev'",
+    "generate": "tinacms build && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -14,8 +14,17 @@
     "@nuxt/devtools": "latest",
     "@nuxt/fonts": "^0.10.3",
     "@nuxt/ui": "^2.20.0",
+    "@tinacms/cli": "^1.7.0",
+    "@types/node": "^22.10.2",
     "@vueuse/nuxt": "^12.0.0",
     "nuxt": "^3.14.1592",
     "vue": "latest"
+  },
+  "dependencies": {
+    "@tinacms/auth": "^1.0.10",
+    "express": "^4.21.2",
+    "next-tinacms-cloudinary": "^11.0.2",
+    "serverless-http": "^3.2.0",
+    "tinacms": "^2.5.2"
   }
 }
