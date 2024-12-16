@@ -1,5 +1,3 @@
-// netlify/functions/api/api.js
-
 import ServerlessHttp from "serverless-http";
 import express, { Router } from "express";
 import { isAuthorized } from "@tinacms/auth";
