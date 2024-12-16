@@ -7,6 +7,9 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@vueuse/nuxt"
   ],
+  content: {
+    documentDriven: true,
+  },
   fonts: {
     families: [
       {

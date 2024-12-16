@@ -2,6 +2,7 @@ import { defineConfig } from "tinacms";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || "master";
+
 export default defineConfig({
   branch,
   clientId: process.env.NUXT_TINA_CLIENT_ID || "", // Get this from tina.io
@@ -16,7 +17,7 @@ export default defineConfig({
       const pack = await import("next-tinacms-cloudinary");
       return pack.TinaCloudCloudinaryMediaStore;
     },
-  },  // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
+  }, // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
       {
